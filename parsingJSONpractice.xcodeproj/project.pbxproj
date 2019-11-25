@@ -14,6 +14,8 @@
 		E134B6E8238C41E80022841A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E134B6E7238C41E80022841A /* Assets.xcassets */; };
 		E134B6EB238C41E80022841A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E134B6E9238C41E80022841A /* LaunchScreen.storyboard */; };
 		E134B6F6238C41E80022841A /* parsingJSONpracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E134B6F5238C41E80022841A /* parsingJSONpracticeTests.swift */; };
+		E134B701238C442A0022841A /* topStoriesTechnology.json in Resources */ = {isa = PBXBuildFile; fileRef = E134B700238C442A0022841A /* topStoriesTechnology.json */; };
+		E134B703238C44F30022841A /* NewsHeadline.swift in Sources */ = {isa = PBXBuildFile; fileRef = E134B702238C44F30022841A /* NewsHeadline.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		E134B6F1238C41E80022841A /* parsingJSONpracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parsingJSONpracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E134B6F5238C41E80022841A /* parsingJSONpracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parsingJSONpracticeTests.swift; sourceTree = "<group>"; };
 		E134B6F7238C41E80022841A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E134B700238C442A0022841A /* topStoriesTechnology.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = topStoriesTechnology.json; path = "../../../../../../../../Downloads/b2d844132e8095aa53ced7b370f0f267-6b5754c97d9ddf19a39715869a6a9710b4e74fc1/topStoriesTechnology.json"; sourceTree = "<group>"; };
+		E134B702238C44F30022841A /* NewsHeadline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsHeadline.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		E134B6DD238C41E20022841A /* parsingJSONpractice */ = {
 			isa = PBXGroup;
 			children = (
+				E134B700238C442A0022841A /* topStoriesTechnology.json */,
+				E134B702238C44F30022841A /* NewsHeadline.swift */,
 				E134B6DE238C41E20022841A /* AppDelegate.swift */,
 				E134B6E0238C41E20022841A /* SceneDelegate.swift */,
 				E134B6E2238C41E20022841A /* ViewController.swift */,
@@ -181,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E134B6EB238C41E80022841A /* LaunchScreen.storyboard in Resources */,
+				E134B701238C442A0022841A /* topStoriesTechnology.json in Resources */,
 				E134B6E8238C41E80022841A /* Assets.xcassets in Resources */,
 				E134B6E6238C41E20022841A /* Main.storyboard in Resources */,
 			);
@@ -200,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E134B703238C44F30022841A /* NewsHeadline.swift in Sources */,
 				E134B6E3238C41E20022841A /* ViewController.swift in Sources */,
 				E134B6DF238C41E20022841A /* AppDelegate.swift in Sources */,
 				E134B6E1238C41E20022841A /* SceneDelegate.swift in Sources */,
